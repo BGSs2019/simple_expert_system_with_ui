@@ -1,0 +1,38 @@
+Type: Bool
+Name: BoolParam
+Num: 1
+Value: True
+Weight: 0.1
+
+Type: Bool
+Name: BoolParam
+Num: 2
+Value: False
+Weight: 0.2
+
+Type: Num
+Name: BoundParam
+Num: 1
+Value: 15.0
+MinValue: 12.0
+MaxValue: 14.0
+Weight: 0.2
+
+Type: Str
+Name: StrParam
+Num: 1
+Value: string1
+ArrValues: string1 string2
+Weight: 0.1
+
+Type: StrNum
+Name: StrNumParam
+Num: 1
+Feature: grass
+Value: 15
+ArrValues: grass rock
+MinValues: 10 14
+MaxValues: 12 20
+Weights: 0.1 0.2
+
+Sum risk of avalanche = 0.4
